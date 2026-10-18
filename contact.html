@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Lucky Shrub Contact</title>
+    <meta name="author" content="brice" />
+    <meta
+      name="description"
+      content="website contact of the Lucky Shrub Retail"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="logo.png" alt="Lucky Shrub" />
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="nursery.html">Nursery</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Contact us</h1>
+      <form method="POST">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your full name"
+          autocomplete="name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="your.email@example.com"
+          autocomplete="email"
+          required
+        />
+
+        <label for="phone">Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          autocomplete="tel"
+          placeholder="your phone number"
+        />
+
+        <label for="services">Type of services</label>
+        <select id="services" name="services" required>
+          <option value="">-- Select one --</option>
+          <option value="design">Design &amp; Creation</option>
+          <option value="landscaping">Landscaping</option>
+          <option value="maintenance">Maintenance</option>
+          <option value="nursery">Nursery</option>
+        </select>
+
+        <label for="address">Address</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="your address"
+          autocomplete="street-address"
+        />
+
+        <label for="date">date</label>
+        <input type="date" id="date" name="date" />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message..."
+          rows="5"
+        ></textarea>
+
+        <button type="submit" class="btn btn-primary">Send request</button>
+      </form>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Lucky Shrub" />
+        </div>
+        <div class="social">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="facebook.svg" alt="Facebook" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="instagram.svg" alt="Instagram" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="tiktok.svg" alt="TikTok" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="x.svg" alt="X" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="snapchat.svg" alt="Snapchat" />
+          </a>
+        </div>
+        <div class="footer-contact">
+          <address>
+            <p>
+              <a href="tel:+15204387629">
+                <span class="icon"
+                  ><img src="phone-solid-full.svg" alt="" /></span
+                >(520)438-7629
+              </a>
+            </p>
+            <p>
+              <a href="mailto:Lucky-Shrub20@gmail.com">
+                <span class="icon"><img src="gmail.svg" alt="" /> </span>
+                Lucky-Shrub20@gmail.com
+              </a>
+            </p>
+          </address>
+          <p><small>© 2026 Lucky Shrub</small></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
